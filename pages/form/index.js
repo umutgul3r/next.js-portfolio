@@ -125,7 +125,7 @@ const index = () => {
                       className="checkbox-checked checked:after:content-uncheck checked:outline-red-500"
                       type="radio"
                       id="2"
-                      name="Next.js"
+                      name="React"
                       value="Hayır"
                     />
                     <span className="ml-3">Hayır</span>
@@ -144,7 +144,7 @@ const index = () => {
                       className="checkbox-checked checked:after:content-check checked:outline-green-500"
                       type="radio"
                       id="3"
-                      name="react kulladın mı?"
+                      name="Next.js"
                       value="evet"
                     />
                     <span className="ml-3">Evet</span>
@@ -158,7 +158,7 @@ const index = () => {
                       className="checkbox-checked checked:after:content-uncheck checked:outline-red-500"
                       type="radio"
                       id="4"
-                      name="next.js kulladın mı?"
+                      name="Next.js"
                       value="Hayır"
                       defaultChecked
                     />

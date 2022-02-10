@@ -14,7 +14,7 @@ const Home = () => {
     <div className="flex-col items-center ">
       <div className=" sm:mr-[135px] flex-col items-center sm:ml-[135px] sm:h-full  sm:m-0    pb-16">
         <Head>
-          <title>Anasayfa | Ferhan Cihaner</title>
+          <title>Anasayfa</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"
