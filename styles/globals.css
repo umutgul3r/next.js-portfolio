@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+
+@layer base {
+  html,
+  body #root {
+    font-family: "Inter", sans-serif;
+    @apply antialiased bg-[#FFFFFF];
+  }
+}
+@layer components {
+  .btn {
+    @apply bg-blue-400 font-bold relative m-1 left-60 text-white rounded-lg p-2;
+  }
+  .chart-btn {
+    @apply bg-blue-400 font-semibold relative m-1  text-black rounded-lg p-2;
+  }
+  .menu-item {
+    @apply relative  pt-11 pb-[42px] ml-5  font-bold text-sm leading-[17px] cursor-pointer;
+  }
+  .input {
+    @apply border border-solid border-black p-[14px] h-11 w-[300px] sm:w-[550px] md:w-[268px];
+  }
+  .nav-p {
+    @apply cursor-pointer ml-14;
+  }
+  .formText {
+    @apply text-sm;
+  }
+  .chechbox {
+    @apply cursor-pointer ml-4 h-8 w-8 sm:h-[42px] sm:w-[43px];
+  }
+  .checkbox-checked {
+    @apply chechbox outline outline-offset-2 outline-1 sm:outline-2 p-2 pt-3  appearance-none checked:flex checked:items-center checked:justify-center;
+  }
+}

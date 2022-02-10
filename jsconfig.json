@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@redux/*": ["redux/*"],
+      "@composite/*": ["components/composite/*"],
+      "@public/*": ["public/assets/Icons*"],
+      "@api/*": ["api/*"],
+      "@allIcons/*": ["./public/assets/Icons/*"]
+    }
+  }
+}
